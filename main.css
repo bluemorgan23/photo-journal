@@ -1,11 +1,7 @@
-.d-block.w-100 {
-    max-height: 600px;
-    width: auto;
-}
-
 nav {
     display: flex;
     justify-content: space-evenly;
+    padding: 5px 0px 5px 0px;
 }
 
 footer {
@@ -14,13 +10,11 @@ footer {
     justify-content: space-around;
 }
 
-.carousel-caption {
-    color: black;
-    position: static;
-    padding-bottom: 0px;
+img {
+    height: 600px;
+    width: 100px;
 }
 
 .welcome {
     text-align: center;
 }
-
