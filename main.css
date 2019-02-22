@@ -1,0 +1,26 @@
+.d-block.w-100 {
+    max-height: 600px;
+    width: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.carousel-caption {
+    color: black;
+    position: static;
+    padding-bottom: 0px;
+}
+
+.welcome {
+    text-align: center;
+}
+
