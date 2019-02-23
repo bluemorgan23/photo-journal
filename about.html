@@ -9,8 +9,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous">
-
-    <title>Hello, world!</title>
+    <link rel="stylesheet" href="main.css">
+    <title>About Me!</title>
 </head>
 
 <body>
@@ -20,11 +20,20 @@
         <a href="about.html">About Me</a>
     </nav>
 
+    <h1 class="aboutMe--myName">Chris Morgan</h1>
+    <img src="snowboarding.jpg" class="img-fluid" alt="snowboarding">
+    <p class="aboutMe--bio">Hello! I'm Chris Blue Morgan. I currently live in Nashville, TN. My hobbies include coding,
+        climbing, and playing video games. I also enjoy to read from time to time. I am currently a student at
+        Nashville Software School. Soon I will be coding with ease and have a job within the industry!</p>
+    
+    <form action="">
+        <label for="conctactName">Enter your Name</label>
+        <input type="text" name="conctactName" id="contactName">
+        <label for="askQuestion">Ask Me a Question</label>
+        <textarea name="askQuestion" id="askQuestion" cols="10" rows="2"></textarea>
+    </form>
 
-
-
-
-
+    <button class="submitButton" type="submit">Submit Information</button>
 
 
     <footer>
