@@ -5,9 +5,10 @@ nav {
 }
 
 footer {
-    margin: 10px;
+    margin: 0px;
     display: flex;
     flex-direction: column;
+    padding-top: 5px;
 }
 
 img {
@@ -24,3 +25,10 @@ img {
     position: static;
     color: black;
 }
+
+.card img {
+    height: auto;
+}
+
+
+
