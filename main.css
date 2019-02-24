@@ -40,26 +40,21 @@ img.card-img-top {
     height: auto;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-}
-
 button {
     margin-left: 10px;
-    margin-top: 10px;
+} 
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 10px;
 }
 
 textarea {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-label {
-    margin: 10px;
+    margin: 0px 0px 0px 10px;
 }
 
 input {
-    margin-left: 10px;
-    margin-right: 10px;
-}
+    margin: 0px 0px 10px 10px;
+} 
+
