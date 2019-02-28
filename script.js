@@ -2,15 +2,15 @@
 
 const contactName = document.querySelector("#contactName");
 const askQuestion = document.querySelector("#askQuestion");
+const submitButton = document.querySelector("#submitButton");
 
 function submit() {
     console.log(contactName.value + " wants to know " + askQuestion.value);
-    // document.getElementById("contactName").value = "";
-    // document.getElementById("askQuestion").value = "";
+    contactName.value = "";
+    askQuestion.value = "";
 }
 
-
-document.getElementById("submitButton").addEventListener("click", submit);
+submitButton.addEventListener("click", submit);
 
 // let imageVAR =  document.querySelector("#img1")
 // imageVAR.addEventListener("click", function() {
